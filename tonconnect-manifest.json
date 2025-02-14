@@ -1,8 +1,0 @@
-{
-    "url": "https://yourapp.com",          // Your app's URL
-    "name": "Your App Name",               // Your app's name
-    "iconUrl": "https://yourapp.com/icon.png",  // Link to your app's logo
-    "termsOfUseUrl": "https://yourapp.com/terms", // (Optional) Link to terms of use
-    "privacyPolicyUrl": "https://yourapp.com/privacy" // (Optional) Link to privacy policy
-  }
-  
