@@ -1,16 +1,19 @@
-const express = require('express');
+const express = require("express");
+const bodyParser = require("body-parser");
+
 const app = express();
-const PORT = 3000;
+const PORT = process.env.PORT || 3000;
 
-app.use(express.json());
+// Middleware to parse JSON requests
+app.use(bodyParser.json());
 
-// Webhook Endpoint
-app.post('/webhook', (req, res) => {
-    console.log('🔄 GitHub Webhook Received!', req.body);
-    res.status(200).send({ message: "Webhook received!" });
+// Route to handle GitHub Webhooks
+app.post("/github-webhook", (req, res) => {
+    console.log("GitHub Webhook received:", req.body);
+    res.status(200).send("Webhook received!");
 });
 
-// Start Server
+// Start the server
 app.listen(PORT, () => {
     console.log(`🚀 Server running on http://localhost:${PORT}`);
 });
