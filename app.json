@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "fiit-coin-app",
+    "name": "FIIT Coin App",
     "slug": "fiit-coin-app",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -9,9 +9,13 @@
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "FIITCoin.app"
     },
     "android": {
+      "package": "FIITCoin.app",
+      "googleServicesFile": "./google-services.json",
+      "versionCode": 1,
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
@@ -32,10 +36,32 @@
           "resizeMode": "contain",
           "backgroundColor": "#ffffff"
         }
-      ]
+      ],
+      "expo-build-properties"
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "firebase": {
+        "projectName": "FIIT Coin App",
+        "projectId": "fiit-coin-app",
+        "projectNumber": "982236729616",
+        "apiKey": "AIzaSyBHVBWUyj82yzL_MLNo6PTWk0n2dt1MckY",
+        "authDomain": "fiit-coin-app.firebaseapp.com",
+        "storageBucket": "fiit-coin-app.appspot.com",
+        "messagingSenderId": "982236729616",
+        "appId": "1:982236729616:web:your-app-id",
+        "webClientId": "982236729616-kq6ql3pn21e9ogpflc2jh4fjh96vvnlb.apps.googleusercontent.com",
+        "androidClientId": "982236729616-50oh5htogfpv94oj8u1nmvua87fnjtm9.apps.googleusercontent.com",
+        "iosClientId": "PASTE_IOS_CLIENT_ID_HERE.apps.googleusercontent.com",
+        "redirectUrl": "http://auth.expo.io/@fiitdev/fiit-coin-app"
+      },
+
+
+      "eas": {
+        "projectId": "89cd3752-99ed-4046-bbf3-5c2ac0a43cd8"
+      }
     }
   }
 }

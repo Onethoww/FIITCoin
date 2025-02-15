@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "982236729616",
+    "project_id": "fiit-coin-app",
+    "storage_bucket": "fiit-coin-app.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:982236729616:android:a53c727538ea4d818b9595",
+        "android_client_info": {
+          "package_name": "FIITCoin.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAIojvyDg3zOWarYVmDmsYWpAdO7VjaD88"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

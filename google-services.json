@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "982236729616",
+    "project_id": "fiit-coin-app",
+    "storage_bucket": "fiit-coin-app.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:982236729616:android:a53c727538ea4d818b9595",
+        "android_client_info": {
+          "package_name": "FIITCoin.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "982236729616-50oh5htogfpv94oj8u1nmvua87fnjtm9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "FIITCoin.app",
+            "certificate_hash": "933cbc09d0a17637881180043659d103caec751e"
+          }
+        },
+        {
+          "client_id": "982236729616-sj73t828i5v3d79s2f94vji1dd4ac86d.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "FIITCoin.app",
+            "certificate_hash": "3c8a42cf9ad5839085829208209eb051ff5dd277"
+          }
+        },
+        {
+          "client_id": "982236729616-kq6ql3pn21e9ogpflc2jh4fjh96vvnlb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAIojvyDg3zOWarYVmDmsYWpAdO7VjaD88"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "982236729616-kq6ql3pn21e9ogpflc2jh4fjh96vvnlb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
